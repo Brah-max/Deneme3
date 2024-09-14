@@ -45,7 +45,7 @@ button {
     padding: 20px;
     font-size: 24px;
     border: none;
-    border-radius: 50%; /* Butonları yuvarlak yap */
+    border-radius: 50%; /* Butonları tamamen yuvarlak yap */
     background-color: #333; /* Koyu butonlar */
     color: white;
     cursor: pointer;
@@ -62,4 +62,12 @@ button.clear {
 
 button:active {
     background-color: #555; /* Tıklanınca koyu gri */
+}
+
+button.operator:active {
+    background-color: #d35400; /* Operatörler tıklanınca daha koyu turuncu */
+}
+
+button.clear:active {
+    background-color: #c0392b; /* "C" butonuna tıklanınca daha koyu kırmızı */
 }
