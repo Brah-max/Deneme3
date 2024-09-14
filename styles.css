@@ -14,7 +14,7 @@ body {
 }
 
 .calculator {
-    width: 260px;
+    width: 320px; /* Hesap makinesi genişliği artırıldı */
     padding: 20px;
     border-radius: 20px;
     background-color: #1c1c1c; /* Koyu gri arka plan */
@@ -36,7 +36,7 @@ body {
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* Dört sütunluk bir düzen */
     gap: 10px;
 }
 
